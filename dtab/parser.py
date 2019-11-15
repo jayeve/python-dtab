@@ -21,7 +21,7 @@ def to_ordinal(func):
     inner.__doc__ = func.__doc__
   # extract the inner name, so we
   # can read a stacktrace reasonably
-  inner.func_name = func.func_name
+  inner.__name__ = func.__name__
   return inner
 
 
