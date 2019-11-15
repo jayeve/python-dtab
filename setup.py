@@ -10,7 +10,7 @@ README = local_file('README.md')
 
 
 setup(
-    name='pydtab',
+    name='dtab',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
