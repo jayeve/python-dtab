@@ -154,7 +154,7 @@ class NameTreeParsers(object):
       c = self.peek
       if Path.is_showable(c):
         self.next()
-        bio.write(chr(c))
+        bio.write(bytes(c))
       elif c == FORWARD_SLASH:
         self.next()
         self.eat(u('x'))
